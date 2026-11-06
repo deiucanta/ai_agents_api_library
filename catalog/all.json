@@ -2706,6 +2706,58 @@
     "reviews_url": "https://raw.githubusercontent.com/eater2/ai_agents_api_library/main/catalog/reviews/browserbase-stagehand.json"
   },
   {
+    "id": "cloudbrowser",
+    "name": "Cloudbrowser",
+    "category": "web-scraping-browser",
+    "homepage": "https://cloudbrowser.tv",
+    "docs": "https://cloudbrowser.tv/docs/api",
+    "auth": "api_key",
+    "auth_hint": "Workspace API key in the Authorization: Bearer header",
+    "mcp": {
+      "type": "none",
+      "url": null,
+      "domain_verified": null,
+      "kind": "none",
+      "config": null
+    },
+    "free_tier": "Free: $0/month, 1 browser-hour/month and 1 concurrent browser, with a persistent Chrome profile, CDP access and Live View; verify email to start, no payment method required.",
+    "sdk": [],
+    "openapi": "https://cloudbrowser.tv/openapi.json",
+    "llms_txt": "https://cloudbrowser.tv/llms.txt",
+    "desc_en": "Create and manage persistent, isolated Chrome browsers for AI agents through a REST API, then connect automation clients over CDP.",
+    "notes": "Workspace API keys authorize browser management; separate CDP grants connect automation clients. Fork, pause and resume are available on paid Basic and Pro plans; a source browser must be paused before forking. Browser profiles persist across tasks, though website login sessions may still expire.",
+    "verified": "2026-11-06",
+    "free_plan": {
+      "kind": "free_tier",
+      "requires_card": false,
+      "quota": "1 browser-hour/month; 1 concurrent browser",
+      "period": "month",
+      "source_url": "https://cloudbrowser.tv/pricing",
+      "checked_at": "2026-11-06"
+    },
+    "auth_scheme": {
+      "type": "http",
+      "scheme": "bearer",
+      "format": "Authorization: Bearer <workspace_api_key>",
+      "source_url": "https://cloudbrowser.tv/docs/api",
+      "checked_at": "2026-11-06"
+    },
+    "base_url": "https://cloudbrowser.tv/api/v1",
+    "rate_limits": {
+      "summary": "Free plan: 1 concurrent browser; monthly allowance is 1 browser-hour.",
+      "source_url": "https://cloudbrowser.tv/pricing",
+      "checked_at": "2026-11-06"
+    },
+    "operations": [
+      "browser-automation"
+    ],
+    "no_auth": false,
+    "has_free_tier": true,
+    "has_trial": false,
+    "no_card": true,
+    "stale": false
+  },
+  {
     "id": "diffbot",
     "name": "Diffbot",
     "category": "web-scraping-browser",
