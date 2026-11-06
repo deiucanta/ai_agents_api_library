@@ -11,23 +11,23 @@
 <table align="right" width="300">
 <tr><th colspan="2" align="center">AI Agents Accessible APIs</th></tr>
 <tr><td><b>Type</b></td><td>API & MCP catalog</td></tr>
-<tr><td><b>Entries</b></td><td>331</td></tr>
+<tr><td><b>Entries</b></td><td>332</td></tr>
 <tr><td><b>Categories</b></td><td>29</td></tr>
 <tr><td><b>Official MCP servers</b></td><td>229</td></tr>
 <tr><td><b>Languages</b></td><td>English, Polish</td></tr>
 <tr><td><b>Format</b></td><td>JSON, Markdown, HTML, llms.txt</td></tr>
-<tr><td><b>Last checked</b></td><td>2026-09-25</td></tr>
+<tr><td><b>Last checked</b></td><td>2026-11-06</td></tr>
 <tr><td><b>License</b></td><td>CC BY 4.0 (data), MIT (code)</td></tr>
 </table>
 
-**AI Agents Accessible APIs** is an open, bilingual (English/Polish) catalog of **331 services** (each with a last-checked date) in **29 categories** that an autonomous AI agent — such as Claude, ChatGPT, Gemini or a custom LLM agent — can use **without a human in the loop**, after a one-time human step: registering an account and handing the agent an **API key**, an **OAuth token**, or a connection to an **MCP (Model Context Protocol) server**. Every entry records the documentation URL, the authentication method, the availability of an official or community MCP server, and the free tier. The list is not a directory of products with “AI” in their name; the criterion is agent operability, not branding.
+**AI Agents Accessible APIs** is an open, bilingual (English/Polish) catalog of **332 services** (each with a last-checked date) in **29 categories** that an autonomous AI agent — such as Claude, ChatGPT, Gemini or a custom LLM agent — can use **without a human in the loop**, after a one-time human step: registering an account and handing the agent an **API key**, an **OAuth token**, or a connection to an **MCP (Model Context Protocol) server**. Every entry records the documentation URL, the authentication method, the availability of an official or community MCP server, and the free tier. The list is not a directory of products with “AI” in their name; the criterion is agent operability, not branding.
 
 ## Contents
 
 1. [Machine-readable access (for AI agents)](#machine-readable-access-for-ai-agents)
 2. [Inclusion criteria](#inclusion-criteria)
 3. [Legend](#legend)
-4. [Web search](#web-search) (14) · [Web scraping and browser automation](#web-scraping-and-browser-automation) (18) · [Knowledge and research data](#knowledge-and-research-data) (16) · [Image generation and editing](#image-generation-and-editing) (10) · [Video generation and editing](#video-generation-and-editing) (14) · [Speech and audio](#speech-and-audio) (13) · [Music generation](#music-generation) (6) · [3D generation and assets](#3d-generation-and-assets) (6) · [Architecture, CAD and BIM](#architecture-cad-and-bim) (8) · [Diagrams and software architecture](#diagrams-and-software-architecture) (8) · [Design and UI](#design-and-ui) (6) · [Documents, OCR and presentations](#documents-ocr-and-presentations) (14) · [Translation and language](#translation-and-language) (6) · [Code execution sandboxes](#code-execution-sandboxes) (10) · [Developer platforms and DevOps](#developer-platforms-and-devops) (12) · [Cloud and hosting](#cloud-and-hosting) (10) · [Databases](#databases) (12) · [Vector search, memory and RAG](#vector-search-memory-and-rag) (9) · [Email, team chat and notifications](#email-team-chat-and-notifications) (10) · [SMS and messaging apps](#sms-and-messaging-apps) (10) · [Voice agents and telephony](#voice-agents-and-telephony) (9) · [Productivity and workspace](#productivity-and-workspace) (17) · [CRM, support and marketing](#crm-support-and-marketing) (8) · [Social media](#social-media) (10) · [Maps, geolocation and weather](#maps-geolocation-and-weather) (18) · [Finance, payments and market data](#finance-payments-and-market-data) (16) · [E-commerce](#e-commerce) (8) · [Automation and integration platforms](#automation-and-integration-platforms) (15) · [Model APIs and inference](#model-apis-and-inference) (18)
+4. [Web search](#web-search) (14) · [Web scraping and browser automation](#web-scraping-and-browser-automation) (19) · [Knowledge and research data](#knowledge-and-research-data) (16) · [Image generation and editing](#image-generation-and-editing) (10) · [Video generation and editing](#video-generation-and-editing) (14) · [Speech and audio](#speech-and-audio) (13) · [Music generation](#music-generation) (6) · [3D generation and assets](#3d-generation-and-assets) (6) · [Architecture, CAD and BIM](#architecture-cad-and-bim) (8) · [Diagrams and software architecture](#diagrams-and-software-architecture) (8) · [Design and UI](#design-and-ui) (6) · [Documents, OCR and presentations](#documents-ocr-and-presentations) (14) · [Translation and language](#translation-and-language) (6) · [Code execution sandboxes](#code-execution-sandboxes) (10) · [Developer platforms and DevOps](#developer-platforms-and-devops) (12) · [Cloud and hosting](#cloud-and-hosting) (10) · [Databases](#databases) (12) · [Vector search, memory and RAG](#vector-search-memory-and-rag) (9) · [Email, team chat and notifications](#email-team-chat-and-notifications) (10) · [SMS and messaging apps](#sms-and-messaging-apps) (10) · [Voice agents and telephony](#voice-agents-and-telephony) (9) · [Productivity and workspace](#productivity-and-workspace) (17) · [CRM, support and marketing](#crm-support-and-marketing) (8) · [Social media](#social-media) (10) · [Maps, geolocation and weather](#maps-geolocation-and-weather) (18) · [Finance, payments and market data](#finance-payments-and-market-data) (16) · [E-commerce](#e-commerce) (8) · [Automation and integration platforms](#automation-and-integration-platforms) (15) · [Model APIs and inference](#model-apis-and-inference) (18)
 5. [Related directories and registries](#related-directories-and-registries)
 6. [Contributing](#contributing)
 7. [See also](#see-also)
@@ -116,7 +116,7 @@ The skill tells Claude when to reach for the catalog and how to pick a service. 
 
 ## Web scraping and browser automation
 
-*Crawl, scrape and convert pages to Markdown/JSON, or drive a remote headless browser (clicks, forms, logins).* — 18 services. JSON: [`catalog/web-scraping-browser.json`](catalog/web-scraping-browser.json)
+*Crawl, scrape and convert pages to Markdown/JSON, or drive a remote headless browser (clicks, forms, logins).* — 19 services. JSON: [`catalog/web-scraping-browser.json`](catalog/web-scraping-browser.json)
 
 | Service | What an agent can do | Auth | MCP | Free tier | Docs |
 |---|---|---|:-:|---|---|
@@ -126,6 +126,7 @@ The skill tells Claude when to reach for the catalog and how to pick a service. 
 | [Browse AI API](https://www.browse.ai) | Trigger pre-built or custom 'robots' to extract and monitor web data via REST API, returning structured JSON. | API key | — | 🆓 free forever plan: 50 credits/mo, no card required | [docs](https://docs.browse.ai/api/v2) |
 | [Browser Use Cloud API](https://browser-use.com) | Launch cloud browser sessions and run AI browser-automation agent tasks via REST API or Python/TypeScript SDK. | API key | [✅](https://api.browser-use.com/v3/mcp) | $15 one-time signup credit for new accounts (Google/GitHub/Microsoft); paid usage afterward | [docs](https://docs.browser-use.com) |
 | [Browserbase (+ Stagehand)](https://www.browserbase.com) | Run and control cloud headless browsers programmatically, with Stagehand adding natural-language page actions. | API key | [✅](https://mcp.browserbase.com/mcp) | 🆓 Free tier: 1 browser hour/month, 3 concurrent browsers, 15 min/session, no card required | [docs](https://docs.browserbase.com) |
+| [Cloudbrowser](https://cloudbrowser.tv) | Create and manage persistent, isolated Chrome browsers for AI agents through a REST API, then connect automation clients over CDP. | API key | — | 🆓 Free: $0/month, 1 browser-hour/month and 1 concurrent browser, with a persistent Chrome profile, CDP access and Live View; verify email to start, no payment method required. | [docs](https://cloudbrowser.tv/docs/api) |
 | [Diffbot](https://www.diffbot.com) | Automatically extract structured data (articles, products, people) from any URL via REST API, no custom parsing rules needed. | API key | — | 🆓 free plan: 10,000 credits/mo, no card required (5 req/min limit) | [docs](https://www.diffbot.com/docs/extract/) |
 | [Firecrawl](https://www.firecrawl.dev) | Scrape, crawl, and extract structured data from any website via a single REST API call. | API key | [✅](https://mcp.firecrawl.dev/v2/mcp) | 🆓 free tier: 1,000 credits/mo, no card required | [docs](https://docs.firecrawl.dev) |
 | [Hyperbrowser](https://www.hyperbrowser.ai) | Spin up cloud browsers and call scrape, crawl, and structured-extract endpoints via REST API or MCP server. | API key | [✅](https://github.com/hyperbrowserai/mcp) | 🆓 Free: Free plan with 5,000 credits (1 credit = $0.001), 1 concurrent browser, 7-day data retention; no credit card required | [docs](https://www.hyperbrowser.ai/docs) |
@@ -663,6 +664,6 @@ The initial candidate list was compiled from:
 4. [abitwise — AI-tools](https://github.com/abitwise/AI-tools)
 5. [Sylus — Top-rated connectors for AI tool integrations](https://www.sylus.ai/feeds/blog/top-rated-connectors-ai-tool-integrations)
 
-<sub>Generated from data/catalog.json on 2026-09-25.</sub>
+<sub>Generated from data/catalog.json on 2026-11-06.</sub>
 
 <!-- keywords: AI agent tools, agent-accessible APIs, MCP servers list, Model Context Protocol directory, tool calling APIs, LLM tools catalog, API keys for agents, Claude tools, ChatGPT actions, function calling, katalog API dla agentów AI, serwery MCP -->
